@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "parcheggio_protetto_bike",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25832" } },
+"features": [
+{ "type": "Feature", "properties": { "park": "Area Ex Zuffo", "via": "piazzale Ex Zuffo", "fumetto": "Servizio rimessaggio bici Piazzale Area ex Zuffo", "layer": "Servizio di rimessaggio biciclette", "posti": 204 }, "geometry": { "type": "Point", "coordinates": [ 663177.84670061559882, 5104575.195049769245088 ] } },
+{ "type": "Feature", "properties": { "park": "Piedicastello", "via": "via Verruca", "fumetto": "Servizio rimessaggio bici Piedicastello", "layer": "Servizio di rimessaggio biciclette", "posti": 26 }, "geometry": { "type": "Point", "coordinates": [ 663454.116794560686685, 5104019.042824324220419 ] } },
+{ "type": "Feature", "properties": { "park": "Parcheggio Sanseverino", "via": "via Sanseverino", "fumetto": "Servizio rimessaggio bici Piazzale Sanseverino", "layer": "Servizio di rimessaggio biciclette", "posti": 12 }, "geometry": { "type": "Point", "coordinates": [ 663553.746880873455666, 5103551.5952287632972 ] } },
+{ "type": "Feature", "properties": { "park": "Osp. Santa Chiara", "via": "via Gocciadoro", "fumetto": "Servizio di rimessaggio bici Osp. Santa Chiara", "layer": "Servizio di rimessaggio biciclette", "posti": 16 }, "geometry": { "type": "Point", "coordinates": [ 665244.005820453865454, 5102332.852935295552015 ] } },
+{ "type": "Feature", "properties": { "park": "Parcheggio Monte Baldo", "via": "via Monte Baldo", "fumetto": "Servizio rimessaggio bici Parcheggio Monte Baldo", "layer": "Servizio di rimessaggio biciclette", "posti": 48 }, "geometry": { "type": "Point", "coordinates": [ 663443.265993080451153, 5102616.453428516164422 ] } },
+{ "type": "Feature", "properties": { "park": "Via Bartali", "via": "via Bartali", "fumetto": "Servizio rimessaggio bici via Bartali", "layer": "Servizio di rimessaggio biciclette", "posti": 16 }, "geometry": { "type": "Point", "coordinates": [ 664408.494106520549394, 5100721.015697318129241 ] } },
+{ "type": "Feature", "properties": { "park": "Stazione di Trento", "via": "via Dogana civ. 14", "fumetto": "Servizio rimessaggio bici Stazione di Trento", "layer": "Servizio di rimessaggio biciclette", "posti": 200 }, "geometry": { "type": "Point", "coordinates": [ 663940.707379307830706, 5104342.136551724746823 ] } },
+{ "type": "Feature", "properties": { "park": "Ex lavatoio pubblico", "via": "via della Saluga civ. 4", "fumetto": "Servizio rimessaggio bici Ex lavatoio pubblico", "layer": "Servizio di rimessaggio biciclette", "posti": 38 }, "geometry": { "type": "Point", "coordinates": [ 664611.347083280212246, 5104037.903124921023846 ] } },
+{ "type": "Feature", "properties": { "park": "Via Unterveger", "via": "via Unterveger", "fumetto": "Servizio rimessaggio bici via Unterveger", "layer": "Servizio di rimessaggio biciclette", "posti": 16 }, "geometry": { "type": "Point", "coordinates": [ 663387.119492941186763, 5106228.09643058758229 ] } }
+]
+}
