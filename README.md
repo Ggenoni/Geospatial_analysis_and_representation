@@ -1,6 +1,6 @@
 # Bikeability and Walkability Analysis of Trento  
 
-This repository contains geospatial analysis scripts and datasets used to assess the **bikeability** and **walkability** of the city of Trento. The analysis is based on **OpenStreetMap data** and the **Open Data Trento web portal**, utilizing **spatial network analysis** and **urban accessibility metrics**.  
+This repository contains geospatial analysis scripts and datasets used to assess the **bikeability** and **walkability** of the city of Trento. The analysis is based on **OpenStreetMap data** and the **Comune di Trento Open Data portal**, utilizing **spatial network analysis** and **urban accessibility metrics**.  
 
 ## 📌 Overview  
 
