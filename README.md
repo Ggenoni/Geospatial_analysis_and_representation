@@ -69,4 +69,25 @@ Additional datasets were extracted using the `osmnx` library.
 
 Each dataset was reprojected to **EPSG:32632 (WGS 84 / UTM zone 32N)** for spatial analysis.  
 
+## 📚 References  
+
+- Haapanen, E. (2021). *Walkability Analysis*. Retrieved from [GitHub](https://github.com/eemilhaa/walkability-analysis). *(Last accessed: 2025-02-20)*  
+- Gehring, D. (2016). *Bikeability-Index für Dresden – Wie fahrradfreundlich ist Dresden*. Master's thesis, Technische Universität Dresden, Professur für Verkehrsökologie. Available at: [Link](http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-201073)  
+- Hall, C. M., & Ram, Y. (2018). *Walk Score® and its potential contribution to the study of active transport and walkability: A critical and systematic review*.  
+  *Transportation Research Part D: Transport and Environment, 61*, 310–324.  
+  [DOI: 10.1016/j.trd.2017.12.018](https://doi.org/10.1016/j.trd.2017.12.018)  
+- Abdelfattah, L., Deponte, D., & Fossa, G. (2022). *The 15-minute city as a hybrid model for Milan*.  
+  *TeMA – Journal of Land Use, Mobility and Environment*, 71–86.  
+- Moreno, C., Allam, Z., Chabaud, D., Gall, C., & Pratlong, F. (2021).  
+  *Introducing the “15-Minute City”: Sustainability, Resilience and Place Identity in Future Post-Pandemic Cities*.  
+  *Smart Cities, 4(1)*, 93–111.  
+  [DOI: 10.3390/smartcities4010006](https://doi.org/10.3390/smartcities4010006)  
+- Heinemann, M. (2022). *Radfreundlichkeit in der Stadt. Umsetzung eines Bikeability-Index auf Basis von OpenStreetMap am Beispiel Heidelberg*.  
+  Heidelberg Institute for Geoinformation Technology, Geographie, Heidelberg.  
+- Ewing, R., & Cervero, R. (2010). *Travel and the built environment: A meta-analysis*.  
+  *Journal of the American Planning Association, 76(3)*, 265–294.  
+  [DOI: 10.1080/01944361003766766](https://doi.org/10.1080/01944361003766766)  
+- Novack, T., Wang, Z., & Zipf, A. (2018). *A system for generating customized pleasant pedestrian routes based on OpenStreetMap data*.  
+  *Sensors, 18(11)*, 3794.  
+  [DOI: 10.3390/s18113794](https://doi.org/10.3390/s18113794)  
 
