@@ -1,6 +1,6 @@
 # Bikeability and Walkability Analysis of Trento  
 
-This repository contains geospatial analysis scripts and datasets used to assess the **bikeability** and **walkability** of the city of Trento. The analysis is based on **OpenStreetMap data** and other open datasets, utilizing **spatial network analysis** and **urban accessibility metrics**.  
+This repository contains geospatial analysis scripts and datasets used to assess the **bikeability** and **walkability** of the city of Trento. The analysis is based on **OpenStreetMap data** and the **Open Data Trento web portal**, utilizing **spatial network analysis** and **urban accessibility metrics**.  
 
 ## 📌 Overview  
 
@@ -14,11 +14,22 @@ The project evaluates **cycling and pedestrian infrastructure** in Trento by com
 
 These indicators are used to construct a **Bikeability Index** and analyze district-level variations in active mobility.  
 
-## 🛠️ Installation  
+## 📦 Dependencies  
 
-Clone the repository and install the required Python packages using:  
+This project relies on the following Python libraries:  
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-pip install -r requirements.txt
+| Library     | Version |
+|------------|---------|
+| `geopandas`  | 1.0.1  |
+| `pandas`     | 2.2.2  |
+| `matplotlib` | 3.10.0 |
+| `osmnx`      | 2.0.1  |
+| `seaborn`    | 0.13.2 |
+| `pandana`    | 0.7    |
+| `numpy`      | 1.26.4 |
+| `scipy`      | 1.13.1 |
+| `networkx`   | 3.4.2  |
+| `shapely`    | 2.0.7  |
+
+
+
