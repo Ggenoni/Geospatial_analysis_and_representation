@@ -69,12 +69,14 @@ Additional datasets were extracted using the `osmnx` library.
 
 Each dataset was reprojected to **EPSG:32632 (WGS 84 / UTM zone 32N)** for spatial analysis.  
 
+
+## 📊 Results  
+
 ### Bikeability Index  
 ![Bikeability Index](https://github.com/Ggenoni/Geospatial_analysis_and_representation/blob/main/images/bikability.png)  
 
 ### Pedestrian Network Intersection Density  
 ![Pedestrian Network Intersection Density](https://github.com/Ggenoni/Geospatial_analysis_and_representation/blob/main/images/walkability.png)  
-
 
 
 ## 📚 References  
