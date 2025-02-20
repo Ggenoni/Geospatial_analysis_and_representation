@@ -31,40 +31,40 @@ This project relies on the following Python libraries:
 | `networkx`   | 3.4.2  |
 | `shapely`    | 2.0.7  |
 
-## Data Sources
+## 🌍 Data Sources
 This project uses geospatial datasets from **Comune di Trento Open Data** and **OpenStreetMap (OSM)**.
 
-### Open Data - Comune di Trento  
+### 🏙️ Open Data - Comune di Trento  
 Most datasets were sourced from the [Comune di Trento Open Data portal](https://www.comune.trento.it/Aree-tematiche/Open-Data), provided in GeoJSON format.
 
-- **Trento Districts (`circoscrizioni`)**  
+- **🗺️ Trento Districts (`circoscrizioni`)**  
   Administrative boundaries of Trento’s **12 districts**, used for spatial aggregation.  
 
-- **Bike Lanes (`bike_lanes`)**  
+- **🚴‍♂️ Bike Lanes (`bike_lanes`)**  
   Contains Trento’s **bike lanes and shared pedestrian-cyclist paths**, classified under municipal or provincial jurisdiction.  
 
-- **Bike Parking (`bike_parking`)**  
+- **🅿️ Bike Parking (`bike_parking`)**  
   Information on **protected long-term bike parking areas**, including capacity and location.  
 
-- **Bike Racks (`racks`)**  
+- **🏔️ Bike Racks (`racks`)**  
   Maps **bike racks** in the limited traffic zone, categorized by type and capacity.  
 
 - **Contour Lines (`elevation`)**  
   **Topographic contour lines** with a 10-meter vertical interval, derived from aerial surveys.  
 
-### OpenStreetMap Data  
+### 🌐 OpenStreetMap Data  
 Additional datasets were extracted using the `osmnx` library.
 
-- **Natural Areas (`natural_areas`)**  
+- **🌳 Natural Areas (`natural_areas`)**  
   Includes **parks and grassy areas**, retrieved by filtering OSM features tagged as `leisure=park` or `landuse=grass`.  
 
-- **Points of Interest (`pois`)**  
+- **📍 Points of Interest (`pois`)**  
   Diverse range of **urban amenities**, including shops, offices, and public services.  
 
-- **Street Network (`streets`)**  
+- **🚦 Street Network (`streets`)**  
   The **road network** of Trento, extracted using `network_type="all"`.  
 
-- **Pedestrian Network (`walkways`)**  
+- **🚶‍♂️ Pedestrian Network (`walkways`)**  
   The **walkable network**, including sidewalks, footpaths, and pedestrian streets (`network_type="walk"`).  
 
 Each dataset was reprojected to **EPSG:32632 (WGS 84 / UTM zone 32N)** for spatial analysis.  
